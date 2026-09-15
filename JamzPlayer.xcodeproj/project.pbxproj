@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0063334018DB1F9D830156F6 /* JamzPlayer/Views/JamzTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0FAE5F57D1778E5C21F3B1 /* JamzPlayer/Views/JamzTheme.swift */; };
+		13E34EB273FD8E9B4646D966 /* JamzPlayer/Models/Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1645C200D4AE67D4EB676455 /* JamzPlayer/Models/Song.swift */; };
+		160590A54473AFEE365A6B9B /* JamzPlayerTests/JamzPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA403719532B20F760BC232 /* JamzPlayerTests/JamzPlayerTests.swift */; };
+		2450215E0EB9116ED85FF220 /* JamzPlayer/Services/MP3Inspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17FFEB4ABD693C1710C88FB /* JamzPlayer/Services/MP3Inspector.swift */; };
+		24C548157AFAEEC73E33F63D /* JamzPlayer/Resources/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1DF963A74A618D33CD3D7F /* JamzPlayer/Resources/Assets.xcassets */; };
+		585309351E53E312BDB6DBF7 /* JamzPlayer/Services/HTTPSDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523695964DE60B1596FED1F /* JamzPlayer/Services/HTTPSDownloader.swift */; };
+		5CB51C9C8B04ABAD2AD1F8D5 /* JamzPlayer/Models/PlaybackPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BE6CD106541CC8D3AFCFE8 /* JamzPlayer/Models/PlaybackPolicy.swift */; };
+		5EB4E21BA0D7D0F6DFBDC9FC /* JamzPlayer/Services/SystemPlaybackBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83826DC955CCC6E8D374B9FC /* JamzPlayer/Services/SystemPlaybackBridge.swift */; };
+		6CAB9FACB0F02EA97A2CCFEE /* JamzPlayer/App/JamzPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45182D00340306C3D571211 /* JamzPlayer/App/JamzPlayerApp.swift */; };
+		80670C04652028A107D4BA73 /* JamzPlayer/Views/LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6A02EA7DEF6C668EFC286B /* JamzPlayer/Views/LibraryView.swift */; };
+		8CD10CCAB3581AAA441EE827 /* JamzPlayer/Services/PlayerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8299CC8891F26CCF48DF40 /* JamzPlayer/Services/PlayerStore.swift */; };
+		8EC83CEAA8F0BBDBB4D6A84E /* JamzPlayerTests/Fixtures in Resources */ = {isa = PBXBuildFile; fileRef = A9C70251487B27FC73D888DB /* JamzPlayerTests/Fixtures */; };
+		930A089DE0F948FB29DF64C1 /* JamzPlayer/Services/MetadataReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFB8AA5FD5C969128C5260F /* JamzPlayer/Services/MetadataReader.swift */; };
+		9CEE28EDA3CA45614220885D /* JamzPlayer/App/LibraryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E9ADD1105574DFF3098DAF /* JamzPlayer/App/LibraryStore.swift */; };
+		A0F9942F91D354F490CFD823 /* JamzPlayer/Views/ImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B0163D16BB327C92340A80 /* JamzPlayer/Views/ImportView.swift */; };
+		C4A4482D2328FB914C51A8C8 /* JamzPlayer/Models/SleepTimerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC27079A2AECCC11B124363 /* JamzPlayer/Models/SleepTimerState.swift */; };
+		D307AAECF2AED16A622E3405 /* JamzPlayer/Views/ArtworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D14B34A6B5E99140070B829 /* JamzPlayer/Views/ArtworkView.swift */; };
+		D480FC1392A361F70E3D68E3 /* JamzPlayer/Services/LibraryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7CE56A628DFEBCD7311762 /* JamzPlayer/Services/LibraryRepository.swift */; };
+		EFAC1EA8E4ED20EE221DA636 /* JamzPlayer/Views/PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7671D3C0B40CFDEC3E914F0A /* JamzPlayer/Views/PlayerView.swift */; };
+		FACE00000000000000000000 = {isa = PBXBuildFile; fileRef = FACE10000000000000000000; };
+		FACE00000000000000000001 = {isa = PBXBuildFile; fileRef = FACE10000000000000000001; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D799BAE6088A90139B415FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D1043473D55BFA90E8530D3;
+			remoteInfo = JamzPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E9ADD1105574DFF3098DAF /* JamzPlayer/App/LibraryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamzPlayer/App/LibraryStore.swift; sourceTree = SOURCE_ROOT; };
+		0FFB8AA5FD5C969128C5260F /* JamzPlayer/Services/MetadataReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamzPlayer/Services/MetadataReader.swift; sourceTree = SOURCE_ROOT; };
+		1645C200D4AE67D4EB676455 /* JamzPlayer/Models/Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamzPlayer/Models/Song.swift; sourceTree = SOURCE_ROOT; };
+		40BE6CD106541CC8D3AFCFE8 /* JamzPlayer/Models/PlaybackPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamzPlayer/Models/PlaybackPolicy.swift; sourceTree = SOURCE_ROOT; };
+		4C1DF963A74A618D33CD3D7F /* JamzPlayer/Resources/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = JamzPlayer/Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		66B0163D16BB327C92340A80 /* JamzPlayer/Views/ImportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamzPlayer/Views/ImportView.swift; sourceTree = SOURCE_ROOT; };
+		6E0FAE5F57D1778E5C21F3B1 /* JamzPlayer/Views/JamzTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamzPlayer/Views/JamzTheme.swift; sourceTree = SOURCE_ROOT; };
+		6FC27079A2AECCC11B124363 /* JamzPlayer/Models/SleepTimerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamzPlayer/Models/SleepTimerState.swift; sourceTree = SOURCE_ROOT; };
+		7671D3C0B40CFDEC3E914F0A /* JamzPlayer/Views/PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamzPlayer/Views/PlayerView.swift; sourceTree = SOURCE_ROOT; };
+		7D14B34A6B5E99140070B829 /* JamzPlayer/Views/ArtworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamzPlayer/Views/ArtworkView.swift; sourceTree = SOURCE_ROOT; };
+		83826DC955CCC6E8D374B9FC /* JamzPlayer/Services/SystemPlaybackBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamzPlayer/Services/SystemPlaybackBridge.swift; sourceTree = SOURCE_ROOT; };
+		8D8299CC8891F26CCF48DF40 /* JamzPlayer/Services/PlayerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamzPlayer/Services/PlayerStore.swift; sourceTree = SOURCE_ROOT; };
+		9A7CE56A628DFEBCD7311762 /* JamzPlayer/Services/LibraryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamzPlayer/Services/LibraryRepository.swift; sourceTree = SOURCE_ROOT; };
+		A9C70251487B27FC73D888DB /* JamzPlayerTests/Fixtures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = JamzPlayerTests/Fixtures; sourceTree = SOURCE_ROOT; };
+		B45182D00340306C3D571211 /* JamzPlayer/App/JamzPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamzPlayer/App/JamzPlayerApp.swift; sourceTree = SOURCE_ROOT; };
+		B7480EC88B7F22D0A4757273 /* JamzPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = JamzPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA403719532B20F760BC232 /* JamzPlayerTests/JamzPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamzPlayerTests/JamzPlayerTests.swift; sourceTree = SOURCE_ROOT; };
+		E6FC57C251E9E1BEC1D3C0D2 /* JamzPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = JamzPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6A02EA7DEF6C668EFC286B /* JamzPlayer/Views/LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamzPlayer/Views/LibraryView.swift; sourceTree = SOURCE_ROOT; };
+		F17FFEB4ABD693C1710C88FB /* JamzPlayer/Services/MP3Inspector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamzPlayer/Services/MP3Inspector.swift; sourceTree = SOURCE_ROOT; };
+		F523695964DE60B1596FED1F /* JamzPlayer/Services/HTTPSDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamzPlayer/Services/HTTPSDownloader.swift; sourceTree = SOURCE_ROOT; };
+		FACE10000000000000000000 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamzPlayer/Views/SongEditView.swift; sourceTree = SOURCE_ROOT; };
+		FACE10000000000000000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamzPlayer/Services/MP3MetadataWriter.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12384B5908BE5FE5B3301CEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C7943D90D870A50ADE9160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B28B7AF69320201D1CF206EB = {
+			isa = PBXGroup;
+			children = (
+                FACE10000000000000000001,
+                FACE10000000000000000000,
+				B45182D00340306C3D571211 /* JamzPlayer/App/JamzPlayerApp.swift */,
+				03E9ADD1105574DFF3098DAF /* JamzPlayer/App/LibraryStore.swift */,
+				40BE6CD106541CC8D3AFCFE8 /* JamzPlayer/Models/PlaybackPolicy.swift */,
+				6FC27079A2AECCC11B124363 /* JamzPlayer/Models/SleepTimerState.swift */,
+				1645C200D4AE67D4EB676455 /* JamzPlayer/Models/Song.swift */,
+				F523695964DE60B1596FED1F /* JamzPlayer/Services/HTTPSDownloader.swift */,
+				9A7CE56A628DFEBCD7311762 /* JamzPlayer/Services/LibraryRepository.swift */,
+				F17FFEB4ABD693C1710C88FB /* JamzPlayer/Services/MP3Inspector.swift */,
+				0FFB8AA5FD5C969128C5260F /* JamzPlayer/Services/MetadataReader.swift */,
+				8D8299CC8891F26CCF48DF40 /* JamzPlayer/Services/PlayerStore.swift */,
+				83826DC955CCC6E8D374B9FC /* JamzPlayer/Services/SystemPlaybackBridge.swift */,
+				7D14B34A6B5E99140070B829 /* JamzPlayer/Views/ArtworkView.swift */,
+				66B0163D16BB327C92340A80 /* JamzPlayer/Views/ImportView.swift */,
+				6E0FAE5F57D1778E5C21F3B1 /* JamzPlayer/Views/JamzTheme.swift */,
+				EC6A02EA7DEF6C668EFC286B /* JamzPlayer/Views/LibraryView.swift */,
+				7671D3C0B40CFDEC3E914F0A /* JamzPlayer/Views/PlayerView.swift */,
+				BDA403719532B20F760BC232 /* JamzPlayerTests/JamzPlayerTests.swift */,
+				4C1DF963A74A618D33CD3D7F /* JamzPlayer/Resources/Assets.xcassets */,
+				A9C70251487B27FC73D888DB /* JamzPlayerTests/Fixtures */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6FC57C251E9E1BEC1D3C0D2 /* JamzPlayer.app */,
+				B7480EC88B7F22D0A4757273 /* JamzPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D1043473D55BFA90E8530D3 /* JamzPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F37922C48DA5978D02C9E50E /* Build configuration list for PBXNativeTarget "JamzPlayer" */;
+			buildPhases = (
+				2D764CD838DB39F040AA7EC4 /* Sources */,
+				12384B5908BE5FE5B3301CEE /* Frameworks */,
+				06F5DC629BD46AAFD46564D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JamzPlayer;
+			productName = JamzPlayer;
+			productReference = E6FC57C251E9E1BEC1D3C0D2 /* JamzPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A94A8FE5CCB19BA61C4C0873 /* JamzPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BECB265224D91761C05FDA33 /* Build configuration list for PBXNativeTarget "JamzPlayerTests" */;
+			buildPhases = (
+				9F3002A5D69B22D357A58AA9 /* Sources */,
+				99C7943D90D870A50ADE9160 /* Frameworks */,
+				C584AE92222380FB29B6223F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE58E2B17C19600779694943 /* PBXTargetDependency */,
+			);
+			name = JamzPlayerTests;
+			productName = JamzPlayerTests;
+			productReference = B7480EC88B7F22D0A4757273 /* JamzPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					7D1043473D55BFA90E8530D3 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					A94A8FE5CCB19BA61C4C0873 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 7D1043473D55BFA90E8530D3;
+					};
+				};
+			};
+			buildConfigurationList = 862894B703A6DEDF96A9DD6C /* Build configuration list for PBXProject "JamzPlayer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = zh_TW;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				zh_TW,
+				Base,
+			);
+			mainGroup = B28B7AF69320201D1CF206EB;
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D1043473D55BFA90E8530D3 /* JamzPlayer */,
+				A94A8FE5CCB19BA61C4C0873 /* JamzPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06F5DC629BD46AAFD46564D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C548157AFAEEC73E33F63D /* JamzPlayer/Resources/Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C584AE92222380FB29B6223F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC83CEAA8F0BBDBB4D6A84E /* JamzPlayerTests/Fixtures in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D764CD838DB39F040AA7EC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+                FACE00000000000000000001,
+                FACE00000000000000000000,
+				6CAB9FACB0F02EA97A2CCFEE /* JamzPlayer/App/JamzPlayerApp.swift in Sources */,
+				9CEE28EDA3CA45614220885D /* JamzPlayer/App/LibraryStore.swift in Sources */,
+				5CB51C9C8B04ABAD2AD1F8D5 /* JamzPlayer/Models/PlaybackPolicy.swift in Sources */,
+				C4A4482D2328FB914C51A8C8 /* JamzPlayer/Models/SleepTimerState.swift in Sources */,
+				13E34EB273FD8E9B4646D966 /* JamzPlayer/Models/Song.swift in Sources */,
+				585309351E53E312BDB6DBF7 /* JamzPlayer/Services/HTTPSDownloader.swift in Sources */,
+				D480FC1392A361F70E3D68E3 /* JamzPlayer/Services/LibraryRepository.swift in Sources */,
+				2450215E0EB9116ED85FF220 /* JamzPlayer/Services/MP3Inspector.swift in Sources */,
+				930A089DE0F948FB29DF64C1 /* JamzPlayer/Services/MetadataReader.swift in Sources */,
+				8CD10CCAB3581AAA441EE827 /* JamzPlayer/Services/PlayerStore.swift in Sources */,
+				5EB4E21BA0D7D0F6DFBDC9FC /* JamzPlayer/Services/SystemPlaybackBridge.swift in Sources */,
+				D307AAECF2AED16A622E3405 /* JamzPlayer/Views/ArtworkView.swift in Sources */,
+				A0F9942F91D354F490CFD823 /* JamzPlayer/Views/ImportView.swift in Sources */,
+				0063334018DB1F9D830156F6 /* JamzPlayer/Views/JamzTheme.swift in Sources */,
+				80670C04652028A107D4BA73 /* JamzPlayer/Views/LibraryView.swift in Sources */,
+				EFAC1EA8E4ED20EE221DA636 /* JamzPlayer/Views/PlayerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F3002A5D69B22D357A58AA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160590A54473AFEE365A6B9B /* JamzPlayerTests/JamzPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE58E2B17C19600779694943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D1043473D55BFA90E8530D3 /* JamzPlayer */;
+			targetProxy = D799BAE6088A90139B415FCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A8C91857F674E16E2724F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JV9MTXF2S6;
+				INFOPLIST_FILE = JamzPlayer/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamzplayer.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		89E1FD6268CC0F221A2BE178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		942EEBBACD6C88CAE7F29B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamzplayer.app.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JamzPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JamzPlayer";
+			};
+			name = Release;
+		};
+		E6DE6C99132752C914FEF632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E9B2E96ABC5F6856F2BE79CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JV9MTXF2S6;
+				INFOPLIST_FILE = JamzPlayer/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamzplayer.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FCB48D8F88BCDB0ED9FADFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamzplayer.app.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JamzPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JamzPlayer";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		862894B703A6DEDF96A9DD6C /* Build configuration list for PBXProject "JamzPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E1FD6268CC0F221A2BE178 /* Debug */,
+				E6DE6C99132752C914FEF632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BECB265224D91761C05FDA33 /* Build configuration list for PBXNativeTarget "JamzPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB48D8F88BCDB0ED9FADFD7 /* Debug */,
+				942EEBBACD6C88CAE7F29B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F37922C48DA5978D02C9E50E /* Build configuration list for PBXNativeTarget "JamzPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B2E96ABC5F6856F2BE79CF /* Debug */,
+				5A8C91857F674E16E2724F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}

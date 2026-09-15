@@ -1,0 +1,22 @@
+2026-09-15 — Xcode 26.6 / iPhone 17 Pro / iOS 26.5
+
+Test Case '-[JamzPlayerTests.JamzPlayerTests testCancellationBeforeDownload]' passed (0.009 seconds).
+Test Case '-[JamzPlayerTests.JamzPlayerTests testCorruptIndexIsNotOverwritten]' passed (0.013 seconds).
+Test Case '-[JamzPlayerTests.JamzPlayerTests testErrorMessagesDoNotExposeDownloadURL]' passed (0.003 seconds).
+Test Case '-[JamzPlayerTests.JamzPlayerTests testFailedImportPreservesExistingLibrary]' passed (0.278 seconds).
+Test Case '-[JamzPlayerTests.JamzPlayerTests testHTTPSURLValidation]' passed (0.001 seconds).
+Test Case '-[JamzPlayerTests.JamzPlayerTests testID3VersionsReadChineseMetadataAndArtwork]' passed (0.064 seconds).
+Test Case '-[JamzPlayerTests.JamzPlayerTests testIndexWriteFailureRollsBackCopiedFiles]' passed (0.004 seconds).
+Test Case '-[JamzPlayerTests.JamzPlayerTests testInsecureRedirectIsRejected]' passed (0.005 seconds).
+Test Case '-[JamzPlayerTests.JamzPlayerTests testLibrarySurvivesReloadAndSourceRemoval]' passed (0.033 seconds).
+Test Case '-[JamzPlayerTests.JamzPlayerTests testMissingAndPartialMetadataFallback]' passed (0.035 seconds).
+Test Case '-[JamzPlayerTests.JamzPlayerTests testNaturalEndSingleAndAllRepeat]' passed (2.877 seconds).
+Test Case '-[JamzPlayerTests.JamzPlayerTests testNetworkFailureIsReturned]' passed (0.020 seconds).
+Test Case '-[JamzPlayerTests.JamzPlayerTests testNonMP3AndCorruptAudioRejected]' passed (0.006 seconds).
+Test Case '-[JamzPlayerTests.JamzPlayerTests testPlayerPauseSkipSeekAndSleepDeadline]' passed (0.368 seconds).
+Test Case '-[JamzPlayerTests.JamzPlayerTests testRepeatModesAndManualSkip]' passed (0.001 seconds).
+Test Case '-[JamzPlayerTests.JamzPlayerTests testSleepPresetsResetCancellationAndOneShotExpiry]' passed (0.000 seconds).
+	 Executed 16 tests, with 0 failures (0 unexpected) in 3.716 (3.727) seconds
+	 Executed 16 tests, with 0 failures (0 unexpected) in 3.716 (3.727) seconds
+	 Executed 16 tests, with 0 failures (0 unexpected) in 3.716 (3.728) seconds
+** TEST SUCCEEDED **
